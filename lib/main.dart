@@ -45,12 +45,12 @@ class ProfileScreen extends StatelessWidget {
                     _InfoItem(
                       icon: Icons.email_outlined,
                       label: 'Email',
-                      value: 'ahmed.mohamed@example.com',
+                      value: 'ahmed.hassan@example.com',
                     ),
                     _InfoItem(
                       icon: Icons.phone_outlined,
                       label: 'Phone',
-                      value: '+20 100 123 4567',
+                      value: '+20 101 234 5678',
                     ),
                     _InfoItem(
                       icon: Icons.location_on_outlined,
@@ -132,7 +132,7 @@ class ProfileScreen extends StatelessWidget {
               const SizedBox(height: 16),
               // Name
               const Text(
-                'Ahmed Mohamed',
+                'Ahmed Hassan',
                 style: TextStyle(
                   fontSize: 26,
                   fontWeight: FontWeight.bold,
@@ -151,7 +151,7 @@ class ProfileScreen extends StatelessWidget {
                   border: Border.all(color: Colors.white38),
                 ),
                 child: const Text(
-                  'Mobile Developer',
+                  'Flutter Developer',
                   style: TextStyle(
                     fontSize: 14,
                     color: Colors.white,
